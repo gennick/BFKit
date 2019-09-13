@@ -42,7 +42,7 @@ extern "C" {
  *
  *  @return Returns the convertion result
  */
-CGFloat DegreesToRadians(CGFloat degrees);
+CGFloat DegreesToRadiansBFKit(CGFloat degrees);
 /**
  *  Radians to degrees conversion
  *
@@ -50,7 +50,7 @@ CGFloat DegreesToRadians(CGFloat degrees);
  *
  *  @return Returns the convertion result
  */
-CGFloat RadiansToDegrees(CGFloat radians);
+CGFloat RadiansToDegreesBFKit(CGFloat radians);
 #if __cplusplus
 }
 #endif
